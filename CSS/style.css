@@ -2311,7 +2311,7 @@ input, textarea {
 
 @media screen and (max-width: 376px){
    .questions{
-      margin: -175.5px 0px 0px 0px;
+      margin: -176px 0px 0px 0px;
    }
 }
 
@@ -2333,7 +2333,7 @@ input, textarea {
 
 @media screen and (max-width:376px){
    .form-questions{
-      padding: 169.5px 8px 0.56px 8px;
+      padding: 170px 8px 0.56px 8px;
       display: flex;
       flex-direction: column;
       align-items: center;
