@@ -669,6 +669,7 @@ input, textarea {
 
 .images {
    display: flex;
+   align-items: center;
    transition: all ease 0.4s;
 }
 .images > img {
