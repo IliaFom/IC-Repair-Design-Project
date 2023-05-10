@@ -397,10 +397,7 @@ input, textarea {
 .projects__names li:not(:last-child){
    margin: 0px 60.5px 0px 0px;
 }
-/* 
-.projects__names li:last-child{
-   margin: 0px 120px 0px 0px;
-} */
+
 .project__name {
    /* margin: 0px 60px 0px 0px; */
    font-family: 'Yeseva One';
@@ -413,13 +410,13 @@ input, textarea {
 }
 
 
-.project__name:hover{
+.project__name_default{
    color:#E3B873;
    text-decoration: underline;
    text-decoration-thickness: 1px;
    text-underline-offset: 9.8px;
-
 }
+
 
 .projects__body {
    display: flex;
@@ -475,6 +472,7 @@ input, textarea {
    margin: 0px 0px 24px 0px;
    padding: 0px 0px 0px 42px;
 }
+
 @media screen and (max-width:1276px){
    .projects__title{
       padding: 36px 0px 0px 42px ;
@@ -636,11 +634,14 @@ input, textarea {
    height: 9.57px;
    background-color: rgba(255, 255, 255, 0.3);
    border-radius: 30px;
+   cursor: pointer;
 }
-.navigation__item_act{
+
+.navigation__item_default{
    background-color: #fff;
    border-radius: 30px;
 }
+
 
 .navigation__item:not(:last-child){
    margin: 0px 17.5px 0px 0px;
@@ -652,30 +653,36 @@ input, textarea {
 .navigation__image{
    display: flex;
    align-items: center;
+   cursor: pointer;
 }
 
 .navigation__image:not(:last-child){
    margin: 0px 29.5px 0px 0px;
 }
 
-.projects__image {
-   padding: 0px 0px 41.16% 0px;
+.projects__images {
+   /* padding: 0px 0px 41.16% 0px; */
    flex: 0 0 57.9%;
    position: relative;
+   overflow: hidden;
+}
+
+.images {
+   display: flex;
+   transition: all ease 0.4s;
+}
+.images > img {
+   width: 100%;
+   height: auto;
 }
 
 @media screen and (max-width:1276px){
-   .projects__image {
-      padding: 0px 0px 70.95% 0px;
+   .projects__images {
+      /* padding: 0px 0px 70.95% 0px; */
       margin: 0px 0px 36.6px 0px;
    }
 }
 
-@media screen and (max-width:430px){
-.projects__image_desktop{
-   display:none;
-}
-}
 
 .navigation__icon{
    display: none;
@@ -683,6 +690,7 @@ input, textarea {
    z-index: 4;
    max-width: 129.6px;
    padding: 0px 5.3% 10.6% 5.3%;
+   cursor: pointer;
 }
 
 
@@ -703,15 +711,6 @@ input, textarea {
    }
 }
 
-.projects__image_mobile{
-   display: none;
-}
-
-@media screen and (max-width:430px){
-   .projects__image_mobile{
-      display:block;
-   }
-   }
 
 /* ---------------------------SECTION 3 --------------------------- */
 

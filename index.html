@@ -59,9 +59,9 @@
             <div class="projects__container _container">
                <div class="projects__list">
                   <ul class="projects__names">
-                      <li><a href="#" class="project__name">Rostov-on-Don, Admiral</a></li>
-                      <li><a href="#" class="project__name">Sochi Thieves</a></li>
-                      <li><a href="#" class="project__name">Rostov-on-Don Patriotic</a></li>
+                      <li><a class="project__name project__name_default" id="project__name_1">Rostov-on-Don, Admiral</a></li>
+                      <li><a class="project__name" id="project__name_2">Sochi Thieves</a></li>
+                      <li><a class="project__name" id="project__name_3">Rostov-on-Don Patriotic</a></li>
                   </ul>
                </div>
                <!-- Изменения версии 2.1: вынес description text, description title, добавил им отрицательный margin и переименовал классы!! -->
@@ -72,55 +72,51 @@
                      <div class="description__items items">
                         <div class="item">
                            <h3 class="item__title">City:</h3>
-                           <div class="item__text">Rostov-on-Don <br> LCD admiral</div>
+                           <div class="item__text" id="city">Rostov-on-Don <br> LCD admiral</div>
                         </div>
                         <div class="item">
                            <h3 class="item__title">apartment area:</h3>
-                           <div class="item__text">81 m2</div>
+                           <div class="item__text" id="apartment-area">81 m2</div>
                         </div>
                         <div class="item">
                            <h3 class="item__title">Repair time:</h3>
-                           <div class="item__text">3.5 months</div>
+                           <div class="item__text" id="repair-time">3.5 months</div>
                         </div>
                         <div class="item">
                            <h3 class="item__title">Repair Cost:</h3>
-                           <div class="item__text">Upon request</div>
+                           <div class="item__text" id="repair-cost">Upon request</div>
                         </div>
                      </div>
                      <div class="description__navigation navigation">
-                        <div class="navigation__image">
+                        <div class="navigation__image navigation__image_left">
                            <img src="./Images/GroupArrowleft.svg" alt="arrow">
                         </div>
-                        <div class="navigation__item navigation__item_act">
+                        <div class="navigation__item navigation__item_default" id="nav__item_first">
                         </div>
-                        <div class="navigation__item">
+                        <div class="navigation__item" id="nav__item_second">
                         </div>
-                        <div class="navigation__item">
+                        <div class="navigation__item" id="nav__item_third">
                         </div>
-                        <div class="navigation__image">
+                        <div class="navigation__image navigation__image_right">
                            <img src="./Images/GroupArrowright.svg" alt="arrow">
                         </div>
                      </div>
                   </div> 
-                  <div class="projects__image projects__image_desktop _ibg">
-                     <img src="./Images/image 2.1Room.svg" alt="room">
+                  <div class="projects__images">
+            
                      <div class="navigation__icon navigation__icon_left _ibg">
                         <img src="./Images/Group 8.8nav_left.svg">
                      </div>
                      <div class="navigation__icon navigation__icon_right _ibg">
                         <img src="./Images/Group 8.9nav_right.svg">
                      </div>
-                  </div>
-                  <div class="projects__image projects__image_mobile _ibg">
-                     <img src="./Images/image 2mobilev2.svg" alt="mobile">
-                     <div class="navigation__icon navigation__icon_left _ibg">
-                        <img src="./Images/Group 8.8nav_left.svg">
-                     </div>
-                     <div class="navigation__icon navigation__icon_right _ibg">
-                        <img src="./Images/Group 8.9nav_right.svg">
+                     <div class="images">
+                        <img src="./Images/image 2.1Room.svg" alt="room">
+                        <img src="./Images/image 2sochi.svg" alt="sochi">
+                        <img src="./Images/image 3patriotic.svg" alt="patriotic">
                      </div>
                   </div>
-                  <!-- сюда добавить еще один див с дркгой картинкой и модификатором projects__image_mobile -->
+                  
                </div>
             </div>
          </section>
@@ -562,5 +558,8 @@
        </footer>
 
    </div>
+   <script src="./js/script.js">
+
+   </script>
 </body>
 </html>
