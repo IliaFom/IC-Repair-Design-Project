@@ -829,13 +829,6 @@ input, textarea {
    }  
 }
 
-/* .video-control__video > .player {
-   position: absolute;
-   left: 41.2%;
-   top:33.2%;
-   width: 145px;
-   height: 145px;
-} */
 
 .video-control__player{
    position: absolute;
@@ -844,6 +837,7 @@ input, textarea {
    top: 34.5%;
    max-width: 145px;
    padding: 0px 8.875% 17.75% 8.875%;
+   cursor: pointer;
 }
 
 @media screen and (max-width: 561px){
@@ -1987,6 +1981,7 @@ input, textarea {
    z-index: 4;
    max-width: 129.6px;
    padding: 0px 5.3% 10.6% 5.3%;
+   cursor: pointer;
 }
 
 @media screen and (max-width: 650px) {
