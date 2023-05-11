@@ -167,9 +167,6 @@ document.querySelector('.navigation__image_left').addEventListener('click', func
       document.getElementById('project__name_1').style='color: rgba(255, 255, 255, 0.3); text-decoration: none'
       document.getElementById('project__name_2').style='color: rgba(255, 255, 255, 0.3); text-decoration: none'
    }
-
-
-
    rollSlider()
 })
 
@@ -273,8 +270,6 @@ document.querySelector('.navigation__image_right').addEventListener('click', fun
       document.getElementById('project__name_1').style='color: rgba(255, 255, 255, 0.3); text-decoration: none'
       document.getElementById('project__name_2').style='color: rgba(255, 255, 255, 0.3); text-decoration: none'
    }
-
-  
    rollSlider()
 })
 
