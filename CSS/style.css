@@ -407,6 +407,7 @@ input, textarea {
    position: relative;
    z-index: 3;
    text-transform: uppercase;
+   cursor: pointer;
 }
 
 
