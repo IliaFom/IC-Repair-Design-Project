@@ -152,16 +152,34 @@ document.querySelector('.navigation__icon_left').addEventListener('click', funct
       document.getElementById('city').innerHTML= 'Rostov-on-Don <br> LCD admiral'
       document.getElementById('apartment-area').innerHTML= '81 m2'
       document.getElementById('repair-time').innerHTML= '3.5 months'
+      document.getElementById('nav__item_first').style='background-color: #fff'
+      document.getElementById('nav__item_second').style='background-color: rgba(255, 255, 255, 0.3)'
+      document.getElementById('nav__item_third').style='background-color: rgba(255, 255, 255, 0.3)'
+      document.getElementById('project__name_1').style = 'color:#E3B873;text-decoration: underline; text-decoration-thickness: 1px; text-underline-offset: 9.8px'
+      document.getElementById('project__name_2').style='color: rgba(255, 255, 255, 0.3); text-decoration: none'
+      document.getElementById('project__name_3').style='color: rgba(255, 255, 255, 0.3); text-decoration: none'
    }
    if (count==1){
       document.getElementById('city').innerHTML='Sochi <br> Thieves'
       document.getElementById('apartment-area').innerHTML='105 m2'
       document.getElementById('repair-time').innerHTML='4 months'
+      document.getElementById('nav__item_second').style='background-color: #fff'
+      document.getElementById('nav__item_first').style='background-color: rgba(255, 255, 255, 0.3)'
+      document.getElementById('nav__item_third').style='background-color: rgba(255, 255, 255, 0.3)'
+      document.getElementById('project__name_2').style = 'color:#E3B873;text-decoration: underline; text-decoration-thickness: 1px; text-underline-offset: 9.8px'
+      document.getElementById('project__name_1').style='color: rgba(255, 255, 255, 0.3); text-decoration: none'
+      document.getElementById('project__name_3').style='color: rgba(255, 255, 255, 0.3); text-decoration: none'
    }
    if (count==2){
       document.getElementById('city').innerHTML='Rostov-on-Don <br> Patriotic'
       document.getElementById('apartment-area').innerHTML='93 m2'
       document.getElementById('repair-time').innerHTML='3 months'
+      document.getElementById('nav__item_third').style='background-color: #fff'
+      document.getElementById('nav__item_first').style='background-color: rgba(255, 255, 255, 0.3)'
+      document.getElementById('nav__item_second').style='background-color: rgba(255, 255, 255, 0.3)'
+      document.getElementById('project__name_3').style = 'color:#E3B873;text-decoration: underline; text-decoration-thickness: 1px; text-underline-offset: 9.8px'
+      document.getElementById('project__name_1').style='color: rgba(255, 255, 255, 0.3); text-decoration: none'
+      document.getElementById('project__name_2').style='color: rgba(255, 255, 255, 0.3); text-decoration: none'
    }
    rollSlider()
 })
@@ -216,16 +234,34 @@ document.querySelector('.navigation__icon_right').addEventListener('click', func
       document.getElementById('city').innerHTML= 'Rostov-on-Don <br> LCD admiral'
       document.getElementById('apartment-area').innerHTML= '81 m2'
       document.getElementById('repair-time').innerHTML= '3.5 months'
+      document.getElementById('nav__item_first').style='background-color: #fff'
+      document.getElementById('nav__item_second').style='background-color: rgba(255, 255, 255, 0.3)'
+      document.getElementById('nav__item_third').style='background-color: rgba(255, 255, 255, 0.3)'
+      document.getElementById('project__name_1').style = 'color:#E3B873;text-decoration: underline; text-decoration-thickness: 1px; text-underline-offset: 9.8px'
+      document.getElementById('project__name_2').style='color: rgba(255, 255, 255, 0.3); text-decoration: none'
+      document.getElementById('project__name_3').style='color: rgba(255, 255, 255, 0.3); text-decoration: none'
    }
    if (count==1){
       document.getElementById('city').innerHTML='Sochi <br> Thieves'
       document.getElementById('apartment-area').innerHTML='105 m2'
       document.getElementById('repair-time').innerHTML='4 months'
+      document.getElementById('nav__item_second').style='background-color: #fff'
+      document.getElementById('nav__item_first').style='background-color: rgba(255, 255, 255, 0.3)'
+      document.getElementById('nav__item_third').style='background-color: rgba(255, 255, 255, 0.3)'
+      document.getElementById('project__name_2').style = 'color:#E3B873;text-decoration: underline; text-decoration-thickness: 1px; text-underline-offset: 9.8px'
+      document.getElementById('project__name_1').style='color: rgba(255, 255, 255, 0.3); text-decoration: none'
+      document.getElementById('project__name_3').style='color: rgba(255, 255, 255, 0.3); text-decoration: none'
    }
    if (count==2){
       document.getElementById('city').innerHTML='Rostov-on-Don <br> Patriotic'
       document.getElementById('apartment-area').innerHTML='93 m2'
       document.getElementById('repair-time').innerHTML='3 months'
+      document.getElementById('nav__item_third').style='background-color: #fff'
+      document.getElementById('nav__item_first').style='background-color: rgba(255, 255, 255, 0.3)'
+      document.getElementById('nav__item_second').style='background-color: rgba(255, 255, 255, 0.3)'
+      document.getElementById('project__name_3').style = 'color:#E3B873;text-decoration: underline; text-decoration-thickness: 1px; text-underline-offset: 9.8px'
+      document.getElementById('project__name_1').style='color: rgba(255, 255, 255, 0.3); text-decoration: none'
+      document.getElementById('project__name_2').style='color: rgba(255, 255, 255, 0.3); text-decoration: none'
    }
    rollSlider()
 })
