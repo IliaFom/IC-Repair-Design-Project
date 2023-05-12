@@ -78,14 +78,6 @@ input, textarea {
    color: #E3B873;
 }
 
-/* .header__logo{
-   transition: all 0.7s ease 0s;
-}
-
-.header__logo:hover{
-   color: #E3B873;
-} */
-
 
 .menu__list{
    display: flex;
@@ -99,9 +91,6 @@ input, textarea {
    
 }
 
-/* .menu__list li{
-   transition: all 0.7s ease 0s;
-} */
 
 .menu__link{
    text-transform: uppercase;
@@ -551,7 +540,6 @@ input, textarea {
 }
 
 
-/* изменил max-width и доьавил padding */
 .description__items {
    display: flex;
    flex-wrap: wrap;
@@ -739,7 +727,7 @@ input, textarea {
    color: #FFFFFF;
    margin: 0px 0px 12.79px 0px;
 }
-/* Пока что увеличил текст title */
+
 @media screen and (max-width: 516px){
    .control-projects__title{
       font-size: 22px;
@@ -904,21 +892,12 @@ input, textarea {
    } 
 }
 
-
-
-/* .online-control__text p {
-   padding: 0px 5px;
-} */
 .online-control__form {
    padding: 0px 0px 0px 0px;
    max-width: 771px;
    margin: 0 auto;
 }
-/* @media screen and (max-width:788px){
-   .online-control__form {
-      max-width: 710px;
-   }
-} */
+
 
 .form__content{
    display: flex;
@@ -935,13 +914,6 @@ input, textarea {
       row-gap: 0px;
    }
 }
-
-/* @media screen and (max-width: 376px){
-   .form__content{
-      justify-content: flex-start;
-   }
-} */
-
 
 
 /* Заменил flex-basis auto на 231px */
@@ -1102,17 +1074,6 @@ input, textarea {
    grid-template-columns: minmax(100%,771px);
 }
 
-/* @media screen and (max-width:788px){
-   .form__checkbox{
-      margin: 0px 70px 0px 0px;
-   }
-} */
-
-/* @media screen and (max-width:734px){
-   .form__checkbox{
-      margin: 0px 40px 0px 0px;
-   }
-} */
 
 @media screen and (max-width:561px){
    .form__checkbox{
@@ -1473,7 +1434,7 @@ input, textarea {
    column-gap: 131px;
    margin: 0px 0px 19px 0px;
 }
-/* тестовый режим */
+
 @media screen and (max-width:1276px){
    .instructions__body {
       justify-content: space-between;
@@ -1491,7 +1452,6 @@ input, textarea {
    }
 }
 
-/* тестовый режим */
 .instructions__list {
    position: relative;
    flex: 0 1 49.2%;
@@ -1607,11 +1567,7 @@ input, textarea {
       left:0;
    }
 
-/* @media screen and (max-width: 1276px){
-   .instructions__image{
-      height: 100%;
-   }
-} */
+
 
 @media screen and (max-width: 1070px){
    .instructions__image{
@@ -1820,7 +1776,6 @@ input, textarea {
    /* column-gap: 212px; */
 }
 
-/* тестовый режим */
 @media screen and (max-width:992px){
    .fantasies__body{
       flex-direction: column;
@@ -1834,9 +1789,6 @@ input, textarea {
       
    }
 }
-
-/* тестовый режим */
-
 
 
 .fantasies__styles {
@@ -1899,7 +1851,6 @@ input, textarea {
    flex-direction: column;
 }
 
-/* тестовый режим */
 @media screen and (max-width: 992px){
    .fantasies__list {
       flex-direction: row;
@@ -1913,7 +1864,6 @@ input, textarea {
       display: none;
    }  
 }
-/* тестовый режим */
 
 
 .fantasies__list li:not(:last-child){
@@ -1953,7 +1903,7 @@ input, textarea {
       justify-content: center;
    }
 }
-/* тестовый режим */
+
 @media screen and (max-width:650px){
    .gallery__column_right{
       display: none;
@@ -1967,7 +1917,6 @@ input, textarea {
    }
 }
 
-/* тестовый режим */
 
 .gallery__image1 {
    position: relative;
@@ -2001,17 +1950,13 @@ input, textarea {
 
 }
 
-/* тестовый режим */
 @media screen and (max-width: 650px){
    .gallery__image1 {
       padding: 0px 0px 71.17% 0px;
    }
 }
-/* тестовый режим */
 
-/* .gallery__image1 img{
-   object-position: center;
-} */
+
 .gallery__image2 {
    position: relative;
    z-index: 3;
@@ -2205,8 +2150,6 @@ input, textarea {
    padding: 0px 24px 0px 17px;
    vertical-align: top;
 
-   /* margin: -42px 0px 0px -15px; */
-   /* так как svg не занимает всю величину полотна и не отцентрован margin -15px 0px 0px -15px только выравнивает относительно верхнего левого края, добавил еще margin сверху 27px */
 }
 
 .case_2{
@@ -2513,11 +2456,6 @@ input, textarea {
    }
 }
 
-/* @media screen and (max-width: 560px){
-   .location__body{
-      padding: 274.67px 8px 30px 8px;
-   }
-} */
 
 @media screen and (max-width: 560px){
    .location__body{
@@ -2595,7 +2533,7 @@ input, textarea {
    }
    
 }
-/* на определенной ширине задать width/height 39px для location - logo */
+
 .location__logo:not(:last-child){
    margin: 0px 15px 0px 0px;
 }
@@ -2686,18 +2624,10 @@ input, textarea {
    }
 }
 
-
-
-/* .footer__logo {
-   transition: all 0.7s ease 0s;
-} */
 .footer__logo, .footer__logo:visited {
    text-transform: uppercase;
    color: #E3B873;
 }
-/* .footer__logo:hover{
-   color: #E3B873;
-} */
 
 .footer__contacts {
    display: flex;
